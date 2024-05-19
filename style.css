@@ -50,6 +50,7 @@ body{
     justify-content: center;
     min-height: 90vh;
 }
+
 .box{
     background: #fdfdfd;
     display: flex;
@@ -59,9 +60,37 @@ body{
     box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
                 0 32px 64px -48px rgba(0,0,0,0.5);
 }
+
+.about-box{ 
+    width: 950px;
+    margin: 0px 10px;
+}
+
+.about-box header{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+}
+
+.mission-box{
+    width: 950px;
+    margin: 0px 10px;
+}
+
+.mission-box header{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+}
+
 .form-box{
     width: 450px;
-    margin: 0px 10px;
+    margin: 0
+    px 10px;
 }
 .form-box header{
     font-size: 25px;
@@ -184,4 +213,14 @@ main{
 
 #confirm-password{
     margin-left: 7.5%;
+}
+
+.password-section {
+    position: relative;
+}
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 35px;
+    cursor: pointer;
 }
