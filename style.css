@@ -169,3 +169,19 @@ main{
     margin-bottom: 10px;
     color: red;
 }
+
+.name-section{
+    display: flex;
+}
+
+.password-section{
+    display: flex;
+}
+
+#last-name{
+    margin-left: 7.5%;
+}
+
+#confirm-password{
+    margin-left: 7.5%;
+}
